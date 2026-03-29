@@ -153,4 +153,4 @@ Need help? Check:
 - The CSS and JS comments in the files
 - Common customization examples in this README
 
-Enjoy building your portfolio! 🚀
+Enjoy building your portfolio! 
