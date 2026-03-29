@@ -145,14 +145,15 @@ a:hover {
     margin: 0 auto;
 }
 
-.hero-title {
-    font-size: 3.5rem;
+..hero-title {
+    font-size: 2.5rem;     /* Change from 3.5rem */
     font-weight: 700;
     margin-bottom: var(--spacing-md);
     background: linear-gradient(135deg, var(--accent), var(--lime-cream));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    line-height: 1.3;      /* Add this new line */
 }
 
 .hero-subtitle {
@@ -187,7 +188,7 @@ a:hover {
     }
     
     .hero-title {
-        font-size: 2.25rem;
+        font-size: 1.75rem;  /* Change from 2.25rem */
     }
     
     .hero-subtitle {
