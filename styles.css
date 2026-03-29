@@ -138,6 +138,12 @@ a:hover {
     padding: 6rem var(--spacing-lg);
     background: linear-gradient(135deg, var(--primary), rgba(76, 35, 10, 0.3));
     text-align: center;
+     animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .hero-content {
@@ -188,7 +194,7 @@ a:hover {
     }
     
     .hero-title {
-        font-size: 1.75rem;  /* Change from 2.25rem */
+        font-size: 2.25rem;
     }
     
     .hero-subtitle {
